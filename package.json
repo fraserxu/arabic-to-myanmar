@@ -1,0 +1,29 @@
+{
+  "name": "arabic-to-myanmar",
+  "version": "1.0.0",
+  "description": "A simple module to conver Arabic numerals to Myanmar numerals",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fraserxu/arabic-to-myanmar.git"
+  },
+  "keywords": [
+    "myanmar",
+    "numeral",
+    "arabic",
+    "numeral"
+  ],
+  "author": "Fraser Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraserxu/arabic-to-myanmar/issues"
+  },
+  "homepage": "https://github.com/fraserxu/arabic-to-myanmar",
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "zuul": "^3.1.0"
+  }
+}
