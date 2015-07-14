@@ -1,10 +1,10 @@
-# myanmar-numeral [![Build Status](https://travis-ci.org/fraserxu/myanmar-numeral.svg?branch=master)](https://travis-ci.org/fraserxu/myanmar-numeral)
+# arabic-to-myanmar [![Build Status](https://travis-ci.org/fraserxu/arabic-to-myanmar.svg?branch=master)](https://travis-ci.org/fraserxu/arabic-to-myanmar)
 
 A simple module to conver Arabic numerals to Myanmar numerals
 
 ## Usage
 
-`npm i myanmar-numeral --save` to install.
+`npm i arabic-to-myanmar --save` to install.
 
 ```JavaScript
 var mn = require('./');
@@ -13,12 +13,13 @@ var test = require('tape');
 test('myanmar numeral test', function (t) {
   t.plan(4);
 
-  t.equal(mn(0), '๐');
-  t.equal(mn(1), '၁');
-  t.equal(mn(2), '၂');
-  t.equal(mn(1234567890), '၁၂၃၄၅၆၇၈၉၀')
+  t.equal(mn('๐'), 0);
+  t.equal(mn('၁'), 1);
+  t.equal(mn('၂'), 2);
+  t.equal(mn('၁၂၃၄၅၆၇၈၉၀'), 1234567890)
 
 });
+
 ```
 
 https://en.wikipedia.org/wiki/Burmese_numerals
